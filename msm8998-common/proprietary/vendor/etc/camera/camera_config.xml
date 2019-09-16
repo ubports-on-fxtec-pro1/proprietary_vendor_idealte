@@ -115,7 +115,7 @@ LensInfo : Information of the lens present in the module.
     <SensorName>imx363</SensorName>
     <FlashName>pmic</FlashName>
     <ActuatorName>lc898217xc</ActuatorName>
-    <!--EepromName>sunny_bl24sa64cs_imx363</EepromName-->
+    <EepromName>sunny_bl24sa64cs_imx363</EepromName>
     <ChromatixName>imx363_chromatix</ChromatixName>
     <ModesSupported>0</ModesSupported>
     <Position>BACK</Position>
@@ -127,12 +127,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>64.1</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>4.36</FocalLength>
+      <FNumber>1.8</FNumber>
+      <TotalFocusDistance>3.8</TotalFocusDistance>
+      <HorizontalViewAngle>65.8</HorizontalViewAngle>
+      <VerticalViewAngle>51.8</VerticalViewAngle>
+      <MinFocusDistance>0.08</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
@@ -162,10 +162,10 @@ LensInfo : Information of the lens present in the module.
     <CameraId>1</CameraId>
     <SensorName>gc5025</SensorName>
     <FlashName>pmic</FlashName>
-    <!--EepromName>gc5025_otp</EepromName-->
+    <EepromName>gc5025_otp</EepromName>
     <ChromatixName>gc5025_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>270</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
@@ -174,12 +174,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>64.1</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>2.01</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>0.75</TotalFocusDistance>
+      <HorizontalViewAngle>71.7</HorizontalViewAngle>
+      <VerticalViewAngle>56.9</VerticalViewAngle>
+      <MinFocusDistance>0.35</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
@@ -196,12 +196,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.45</FNumber>
-      <TotalFocusDistance>1.796</TotalFocusDistance>
-      <HorizontalViewAngle>68.0</HorizontalViewAngle>
-      <VerticalViewAngle>51.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>2.51</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.4</TotalFocusDistance>
+      <HorizontalViewAngle>72.1</HorizontalViewAngle>
+      <VerticalViewAngle>57.3</VerticalViewAngle>
+      <MinFocusDistance>0.32</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
@@ -218,12 +218,12 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.45</FNumber>
-      <TotalFocusDistance>1.796</TotalFocusDistance>
-      <HorizontalViewAngle>68.0</HorizontalViewAngle>
-      <VerticalViewAngle>51.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>2.51</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.4</TotalFocusDistance>
+      <HorizontalViewAngle>72.1</HorizontalViewAngle>
+      <VerticalViewAngle>57.3</VerticalViewAngle>
+      <MinFocusDistance>0.32</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
