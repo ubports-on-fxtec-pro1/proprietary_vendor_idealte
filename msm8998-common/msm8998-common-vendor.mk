@@ -1043,7 +1043,6 @@ PRODUCT_PACKAGES += \
     imssettings \
     CNEService \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
