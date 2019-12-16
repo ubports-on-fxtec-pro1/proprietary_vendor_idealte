@@ -13,11 +13,7 @@
 # limitations under the License.
 
 #
-# Generic key character map for full alphabetic US English PC style external keyboards.
-#
-# This file is intentionally very generic and is intended to support a broad rang of keyboards.
-# Do not edit the generic key character map to support a specific keyboard; instead, create
-# a new key character map file with the required keyboard configuration.
+# F(x)tec Pro1 key character map for the English integrated keyboard
 #
 
 type FULL
@@ -124,7 +120,7 @@ key P {
     label:                              'P'
     base:                               'p'
     shift, capslock:                    'P'
-	fn:                                 '/'
+    fn:                                 '/'
 }
 
 key Q {
@@ -192,62 +188,62 @@ key Z {
 key 0 {
     label:                              '0'
     base:                               '0'
-    fn:                                 ')'
+    shift, fn:                          ')'
 }
 
 key 1 {
     label:                              '1'
     base:                               '1'
-    fn:                                 '!'
+    shift, fn:                          '!'
 }
 
 key 2 {
     label:                              '2'
     base:                               '2'
-    fn:                                 '@'
+    shift, fn:                          '@'
 }
 
 key 3 {
     label:                              '3'
     base:                               '3'
-    fn:                                 '#'
+    shift, fn:                          '#'
 }
 
 key 4 {
     label:                              '4'
     base:                               '4'
-    fn:                                 '$'
+    shift, fn:                          '$'
 }
 
 key 5 {
     label:                              '5'
     base:                               '5'
-    fn:                                 '%'
+    shift, fn:                          '%'
 }
 
 key 6 {
     label:                              '6'
     base:                               '6'
-    fn:                                 '^'
+    shift, fn:                          '^'
     alt+shift:                          '\u0302'
 }
 
 key 7 {
     label:                              '7'
     base:                               '7'
-    fn:                                 '&'
+    shift, fn:                          '&'
 }
 
 key 8 {
     label:                              '8'
     base:                               '8'
-    fn:                                 '*'
+    shift, fn:                          '*'
 }
 
 key 9 {
     label:                              '9'
     base:                               '9'
-    fn:                                 '('
+    shift, fn:                          '('
 }
 
 key SPACE {
@@ -270,13 +266,13 @@ key TAB {
 key COMMA {
     label:                              ','
     base:                               ','
-    fn:                                 '<'
+    shift, fn:                          '<'
 }
 
 key PERIOD {
     label:                              '.'
     base:                               '.'
-    fn:                                 '>'
+    shift, fn:                          '>'
 }
 
 key SLASH {
@@ -288,7 +284,7 @@ key SLASH {
 key GRAVE {
     label:                              '`'
     base:                               '`'
-    fn:                                 '~'
+    shift, fn:                          '~'
     alt:                                '\u0300'
     alt+shift:                          '\u0303'
 }
@@ -296,43 +292,43 @@ key GRAVE {
 key MINUS {
     label:                              '-'
     base:                               '-'
-    fn:                                 '_'
+    shift, fn:                          '_'
 }
 
 key EQUALS {
     label:                              '='
     base:                               '='
-    fn:                                 '+'
+    shift, fn:                          '+'
 }
 
 key LEFT_BRACKET {
     label:                              '['
     base:                               '['
-    fn:                                 '{'
+    shift, fn:                          '{'
 }
 
 key RIGHT_BRACKET {
     label:                              ']'
     base:                               ']'
-    fn:                                 '}'
+    shift, fn:                          '}'
 }
 
 key BACKSLASH {
     label:                              '\\'
     base:                               '\\'
-    fn:                                 '|'
+    shift, fn:                          '|'
 }
 
 key SEMICOLON {
     label:                              ';'
     base:                               ';'
-    fn:                                 ':'
+    shift, fn:                          ':'
 }
 
 key APOSTROPHE {
     label:                              '\''
     base:                               '\''
-    fn:                                 '"'
+    shift, fn:                          '"'
 }
 
 ### Numeric keypad ###
