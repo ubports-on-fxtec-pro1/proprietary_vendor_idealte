@@ -1108,3 +1108,9 @@ PRODUCT_COPY_FILES += \
     vendor/idealte/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so
 endif
+
+PRODUCT_COPY_FILES += \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/hw/bootctrl.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bootctrl.msm8998.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib64/hw/bootctrl.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bootctrl.msm8998.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so
