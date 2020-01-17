@@ -476,7 +476,28 @@ key ESCAPE {
 }
 
 key DEL {
-    ctrl+alt:                           fallback BACK
+    fn:                                 replace BACK
+}
+
+key FORWARD_DEL {
+    fn:                                 replace FORWARD
+    shift:                              replace INSERT
+}
+
+key DPAD_UP {
+    shift, fn:                          replace PAGE_UP
+}
+
+key DPAD_DOWN {
+    shift, fn:                          replace PAGE_DOWN
+}
+
+key DPAD_LEFT {
+    shift, fn:                          replace MOVE_HOME
+}
+
+key DPAD_RIGHT {
+    shift, fn:                          replace MOVE_END
 }
 
 ### Gamepad buttons ###
