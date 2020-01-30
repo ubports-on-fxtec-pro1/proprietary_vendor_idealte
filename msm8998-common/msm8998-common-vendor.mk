@@ -301,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/camera/gc5025_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gc5025_chromatix.xml \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/camera/imx350_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx350_chromatix.xml \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/camera/imx363_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx363_chromatix.xml \
+    vendor/idealte/msm8998-common/proprietary/vendor/etc/camera/s5k4h7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7_chromatix.xml \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/idealte/msm8998-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -517,6 +518,28 @@ PRODUCT_COPY_FILES += \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_imx363_snapshot_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx363_snapshot_dual.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_imx363_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx363_video.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_imx363_video_dual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx363_video_dual.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_4k_preview_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_4k_video_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_common.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_hfr_120.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_hfr_60.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_hfr_90.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_liveshot.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_preview.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_snapshot.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_cpp_video.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_default_preview_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_default_video_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_120.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_120_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_60.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_60_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_90.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_hfr_90_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_postproc.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_snapshot.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_zsl_preview_3a.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libchromatix_s5k4h7_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h7_zsl_video_3a.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
@@ -636,6 +659,7 @@ PRODUCT_COPY_FILES += \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_s5k4h7yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7yx.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/idealte/msm8998-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
