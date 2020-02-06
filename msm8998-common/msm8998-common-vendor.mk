@@ -1127,19 +1127,19 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
-    libsdm-disp-vndapis \
-    QtiTelephonyService \
-    datastatusnotification \
-    embms \
-    imssettings \
-    CNEService \
-    WfdService \
-    dpmserviceapp \
-    ims \
-    qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
-    WfdCommon
+    libsdm-disp-vndapis
+#     QtiTelephonyService \
+#     datastatusnotification \
+#     embms \
+#     imssettings \
+#     CNEService \
+#     WfdService \
+#     dpmserviceapp \
+#     ims \
+#     qcrilmsgtunnel \
+#     PowerOffAlarm \
+#     TimeService \
+#     WfdCommon
 endif
 
 -include vendor/extra/devices.mk
